@@ -88,9 +88,9 @@ frame3.place(relx=0.4, rely=0.52, relwidth=0.5, relheight=0.2)
 frame4.place(relx=0.05, rely=0.52, relwidth=0.32, relheight=0.2)
 frame5.place(relx=0.05, rely=0.75, relwidth=0.85, relheight=0.2)
 
-img = PhotoImage(file="satisfctory_pic.png")
-image = Label(frame5, image=img)
-image.pack()
+#img = PhotoImage(file="satisfctory_pic.png")
+#image = Label(frame5, image=img)
+#image.pack()
 
 # окно ввода предмета
 title1_belt = Label(frame1, text="Размер стака", bg="gray")
